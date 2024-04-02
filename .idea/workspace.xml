@@ -4,20 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4279a407-7f04-45bf-8a9c-311fb586ec02" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/levit104anddami404/tpo/Main.java" afterDir="false" />
+    <list default="true" id="4279a407-7f04-45bf-8a9c-311fb586ec02" name="Changes" comment="Add Lab1">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/levit104anddami404/tpo/lab1/task1/TrigFunctions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/levit104anddami404/tpo/lab1/task2/HeapSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/levit104anddami404/tpo/lab1/task3/Creature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/levit104anddami404/tpo/lab1/task3/Door.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/levit104anddami404/tpo/lab1/task3/Finger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/levit104anddami404/tpo/lab1/task3/Hand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/levit104anddami404/tpo/lab1/task3/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/levit104anddami404/tpo/lab1/task3/Voice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/levit104anddami404/tpo/lab1/task3/VoiceType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/levit104anddami404/tpo/lab1/task1/TrigFunctionsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/levit104anddami404/tpo/lab1/task2/HeapSortTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/levit104anddami404/tpo/lab1/task3/ModelTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/levit104anddami404/tpo/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -38,37 +55,59 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Bernoulli.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.Tan.executor": "Run",
+    "JUnit.HeapSortTest.executor": "Run",
+    "JUnit.ModelTest.checkFinger.executor": "Run",
+    "JUnit.ModelTest.checkVoice.executor": "Run",
+    "JUnit.ModelTest.executor": "Run",
+    "JUnit.TgFunctionTest.executor": "Run",
+    "JUnit.TrigFunctionsTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="levit104anddami404.tpo.lab1" />
+      <recent name="levit104anddami404.tpo.task3" />
+    </key>
+  </component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="levit104anddami404.tpo.Main" />
+    <configuration name="ModelTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lab1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="levit104anddami404.tpo.*" />
+          <option name="PATTERN" value="levit104anddami404.tpo.lab1.task3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="levit104anddami404.tpo.lab1.task3" />
+      <option name="MAIN_CLASS_NAME" value="levit104anddami404.tpo.lab1.task3.ModelTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.ModelTest" />
       </list>
     </recent_temporary>
   </component>
@@ -76,6 +115,7 @@
     <attachedChunks>
       <set>
         <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
+        <option value="jdk-17.0.10-temurin-17.0.10-4caba194b151-b3785831" />
       </set>
     </attachedChunks>
   </component>
@@ -89,10 +129,31 @@
       <updated>1710787749661</updated>
       <workItem from="1710787750749" duration="37000" />
       <workItem from="1710787803780" duration="608000" />
+      <workItem from="1710788428985" duration="4714000" />
+      <workItem from="1711612587224" duration="9935000" />
+      <workItem from="1711627926728" duration="5097000" />
+      <workItem from="1711641390684" duration="29189000" />
+      <workItem from="1711696639525" duration="3067000" />
+      <workItem from="1711778577328" duration="1785000" />
+      <workItem from="1712048376978" duration="420000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1710788500313</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710788500313</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <MESSAGE value="Add Lab1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Lab1" />
   </component>
 </project>

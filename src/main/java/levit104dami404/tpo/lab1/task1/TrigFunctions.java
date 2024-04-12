@@ -1,4 +1,4 @@
-package levit104anddami404.tpo.lab1.task1;
+package levit104dami404.tpo.lab1.task1;
 
 public class TrigFunctions {
     private TrigFunctions() {

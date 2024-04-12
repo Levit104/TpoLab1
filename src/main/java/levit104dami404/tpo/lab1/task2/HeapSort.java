@@ -1,4 +1,4 @@
-package levit104anddami404.tpo.lab1.task2;
+package levit104dami404.tpo.lab1.task2;
 
 public class HeapSort {
     private HeapSort() {

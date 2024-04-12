@@ -1,4 +1,4 @@
-package levit104anddami404.tpo.lab1.task3;
+package levit104dami404.tpo.lab1.task3;
 
 public enum VoiceType {
     THIN("Тонкий"),
